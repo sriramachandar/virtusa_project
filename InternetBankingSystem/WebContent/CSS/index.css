@@ -1,0 +1,30 @@
+@charset "ISO-8859-1";
+header {
+    background: url('../assets/index-bg.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+body {
+	background-image: url("../assets/index-bg.jpg");
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: black;
+}
+
+.login-dialog {
+	background-color: white;
+	background-color: white;
+    height: 400px;
+    width: 500px;
+    margin-top: 150px !important;
+    margin: auto;
+    padding: 30px;
+}
